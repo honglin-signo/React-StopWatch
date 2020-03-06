@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import CountDown from "./CountDown";
-import StopWatch from "./StopWatch";
+import Countdown from "./CountDown";
+import Stopwatch from "./StopWatch";
 import "./App.css";
 
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <div className="App-title">Timers</div>
         <div className="Timers">
-          <StopWatch />
-          <CountDown />
+          <Stopwatch />
+          <Countdown />
         </div>
       </div>
     );
